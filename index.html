@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio Personal</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header con título principal -->
+    <header class="header">
+      <h1>Mi Portafolio</h1>
+    </header>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#tarjetas">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- Sección Sobre Mí -->
+      <section id="sobre-mi" class="section">
+        <h2>Sobre mí</h2>
+        <div class="sobre-mi-content">
+          <img
+            src="assets/images/avatar.jpg"
+            alt="Avatar personal"
+            class="avatar"
+          />
+          <div class="bio">
+            <p>
+              Me percibo desarrolladora backend, aunque tengo experiencia
+              desarrollando interfaces intuitivas y lindas para el cliente. Soy
+              una eterna estudiante de ciertas tecnologías que llaman mi
+              atención como desarrollo en la nube, el internet de las cosas y
+              programación orientada a eventos.
+            </p>
+            <p>
+              Cuando no estoy programando, paso tiempo con mis gatos, leyendo o
+              tomando mates en la playa.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección de Tarjetas/Proyectos -->
+      <section id="tarjetas" class="section">
+        <h2>Mis Proyectos</h2>
+        <div class="tarjetas-container">
+          <article class="tarjeta">
+            <img src="/assets/images/luna.jpg" alt="Luna" />
+            <h3>App: Herramienta para acompañar a personas gestantes</h3>
+            <p>
+              Aplicación que permite a las personas gestantes llevar un control
+              de su embarazo, con un calendario y opción de añadir notas.
+            </p>
+          </article>
+
+          <article class="tarjeta">
+            <img src="/assets/images/chat-live.jpg" alt="Chat-live" />
+            <h3>Room de chat en vivo</h3>
+            <p>
+              Una vista dentro de un sitio web que permite a los usuarios
+              chatear en tiempo real. Utiliza WebSockets para la comunicación en
+              tiempo real.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Sección de Habilidades -->
+      <section id="habilidades" class="section">
+        <h2>Habilidades</h2>
+        <div class="habilidades-container">
+          <div class="habilidades-col">
+            <h3>Tecnologías que domino</h3>
+            <ul>
+              <li>Typescript</li>
+              <li>Node con Nest</li>
+              <li>Socket.IO</li>
+              <li>React</li>
+            </ul>
+          </div>
+          <div class="habilidades-col">
+            <h3>Quiero aprender</h3>
+            <ul>
+              <li>AWS</li>
+              <li>Protocolos de comunicación</li>
+              <li>Desarrollo de dispositivos conectados</li>
+            </ul>
+          </div>
+          <div class="habilidades-col">
+            <h3>Hobbies</h3>
+            <ul>
+              <li>Pintar y dibujar</li>
+              <li>Coser</li>
+              <li>Leer</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección de Contacto -->
+      <section id="contacto" class="section">
+        <h2>Contacto</h2>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required />
+          </div>
+          <div class="form-group">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" required />
+          </div>
+          <div class="form-group">
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" />
+          </div>
+          <button type="submit" class="btn">Enviar</button>
+        </form>
+      </section>
+
+      <!-- Sección de Películas -->
+      <section id="peliculas" class="section">
+        <h2>Mis Películas Favoritas</h2>
+        <div class="peliculas-container">
+          <article class="pelicula">
+            <img
+              src="assets/images/ratatoullie.jpg"
+              alt="Poster de Ratatouille"
+            />
+            <h3>Ratatouille</h3>
+            <p>
+              Para mí es de mis favoritas por la importancia de la amistad y de
+              no olvidarse de las raíces de uno.
+            </p>
+          </article>
+
+          <article class="pelicula">
+            <img src="assets/images/coraline.jpg" alt="Poster de Coraline" />
+            <h3>Coraline</h3>
+            <p>
+              Me encanta la animación y su contexto familiar: refleja cómo las
+              dificultades económicas pueden hacernos priorizar el trabajo,
+              olvidando que la vida pasa frente a nosotros.
+            </p>
+          </article>
+
+          <article class="pelicula">
+            <img
+              src="assets/images/frankenweenie.jpg"
+              alt="Poster de Frankenweenie"
+            />
+            <h3>Frankenweenie</h3>
+            <p>
+              Nuestro niño interior se aferra a seres queridos o mascotas, y en
+              la imaginación haríamos lo imposible por seguir compartiendo
+              momentos con ellos.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© 2023 Mi Portafolio Personal</p>
+      <div class="social-links">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter</a>
+      </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
