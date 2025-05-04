@@ -2,21 +2,21 @@
 
 Este proyecto es un portafolio personal desarrollado como parte de la **Práctica Formativa Obligatoria 2 (PFO2)** para la materia de Desarrollo Front-End. Se basa en la Landing Page de la PFO1, incorporando funcionalidades interactivas con JavaScript y mejoras en diseño y estructura para optimizar la experiencia del usuario.
 
-## Pasos para clonar el proyecto:
+### Pasos para clonar el proyecto:
 
 - Clonar mediante HTTPS (se recomienda configurar una clave SSH y clonarlo de esa manera):
 
 ```bash
 git clone <https://github.com/Mbetania/pfo2.git>
-
+```
 ```bash
 git clone <git@github.com:Mbetania/pfo2.git>
-
-## Requisitos Previos
+```
+### Requisitos Previos
 
 Tener instalada la extensión **Live Server** o similar para ejecutar el proyecto en un navegador.
 
-## Estructura del Proyecto
+### Estructura del Proyecto
 
 - `index.html` ubicado en la raíz  
 - Carpeta `css/` con archivo `styles.css`  
@@ -24,7 +24,7 @@ Tener instalada la extensión **Live Server** o similar para ejecutar el proyect
 - Archivo `scripts.js` con la lógica JavaScript  
 - Archivo `README.md` con descripción y checklist  
 
-## Repositorio y Publicación
+### Repositorio y Publicación
 
 - Repositorio en GitHub creado  
 - Proyecto subido al repositorio  
@@ -33,7 +33,7 @@ Tener instalada la extensión **Live Server** o similar para ejecutar el proyect
 
 ---
 
-## Funcionalidades JavaScript Implementadas
+### Funcionalidades JavaScript Implementadas
 
 Se implementaron las siguientes cinco funcionalidades con JavaScript para mejorar la interactividad:
 
@@ -77,7 +77,7 @@ Se implementaron las siguientes cinco funcionalidades con JavaScript para mejora
 
 ---
 
-## Mejoras en Diseño y Estructura
+### Mejoras en Diseño y Estructura
 
 Se realizaron las siguientes mejoras respecto a la PFO1:
 
